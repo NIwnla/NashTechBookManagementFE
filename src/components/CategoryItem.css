@@ -1,0 +1,16 @@
+.category-card {
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.category-card .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
