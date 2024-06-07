@@ -17,10 +17,8 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-left">
-                <Link to="/" className="navbar-icon">
-                    <FaHome />
-                </Link>
-                <Link to="/home" className="navbar-item">Home</Link>
+                <Link to="/" className="navbar-item">Books Manager</Link>
+                <Link to="/home" className="navbar-item"><FaHome/>Home</Link>
                 <Link to="/books" className="navbar-item"><FaBook />Books</Link>
                 {userRole === Roles.ROLE_SUPERUSER &&
                     <div>

@@ -40,6 +40,8 @@ const LoginForm = () => {
             className="login-form"
             initialValues={{ remember: true }}
             onFinish={onFinish}
+            size='large'
+            style={{marginTop: 15}}
         >
             <Form.Item
                 name="username"
